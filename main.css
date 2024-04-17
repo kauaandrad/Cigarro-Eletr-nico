@@ -5,12 +5,37 @@ h1{ background-color: rgb(65, 43, 16);
 font-size: 60px;
 color: aliceblue;}
 
+.bloco1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    height: 400px;
+}
+
+.bloco2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    height: 400px;
+}
+
+.bloco3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    height: 400px;
+}
 
 .Aluno{ color: rgb(0, 0, 0);
  text-shadow: 2ex;
 margin: 0%;
-text-align: center;}
+font-size: 35px;}
 
 #curso{text-align: center; }
 
-.imagem-trabalho{ }
+.imagem{
+width: 500px;
+}
